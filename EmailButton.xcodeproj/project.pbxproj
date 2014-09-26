@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7116F6AB19410479006C8F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6AA19410479006C8F06 /* Foundation.framework */; };
+		7116F6AD19410479006C8F06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6AC19410479006C8F06 /* CoreGraphics.framework */; };
+		7116F6AF19410479006C8F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6AE19410479006C8F06 /* UIKit.framework */; };
+		7116F6B519410479006C8F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7116F6B319410479006C8F06 /* InfoPlist.strings */; };
+		7116F6B719410479006C8F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F6B619410479006C8F06 /* main.m */; };
+		7116F6BB19410479006C8F06 /* EBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F6BA19410479006C8F06 /* EBAppDelegate.m */; };
+		7116F6BD19410479006C8F06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7116F6BC19410479006C8F06 /* Images.xcassets */; };
+		7116F6C419410479006C8F06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6C319410479006C8F06 /* XCTest.framework */; };
+		7116F6C519410479006C8F06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6AA19410479006C8F06 /* Foundation.framework */; };
+		7116F6C619410479006C8F06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7116F6AE19410479006C8F06 /* UIKit.framework */; };
+		7116F6CE19410479006C8F06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7116F6CC19410479006C8F06 /* InfoPlist.strings */; };
+		7116F6D019410479006C8F06 /* EmailButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F6CF19410479006C8F06 /* EmailButtonTests.m */; };
+		7116F6DC194104B3006C8F06 /* EBMailButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7116F6DA194104B3006C8F06 /* EBMailButtonViewController.m */; };
+		7116F6DD194104B3006C8F06 /* EBMailButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7116F6DB194104B3006C8F06 /* EBMailButtonViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7116F6C719410479006C8F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7116F69F19410479006C8F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7116F6A619410479006C8F06;
+			remoteInfo = EmailButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7116F6A719410479006C8F06 /* EmailButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7116F6AA19410479006C8F06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7116F6AC19410479006C8F06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7116F6AE19410479006C8F06 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7116F6B219410479006C8F06 /* EmailButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmailButton-Info.plist"; sourceTree = "<group>"; };
+		7116F6B419410479006C8F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7116F6B619410479006C8F06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7116F6B819410479006C8F06 /* EmailButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmailButton-Prefix.pch"; sourceTree = "<group>"; };
+		7116F6B919410479006C8F06 /* EBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBAppDelegate.h; sourceTree = "<group>"; };
+		7116F6BA19410479006C8F06 /* EBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBAppDelegate.m; sourceTree = "<group>"; };
+		7116F6BC19410479006C8F06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7116F6C219410479006C8F06 /* EmailButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7116F6C319410479006C8F06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7116F6CB19410479006C8F06 /* EmailButtonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmailButtonTests-Info.plist"; sourceTree = "<group>"; };
+		7116F6CD19410479006C8F06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7116F6CF19410479006C8F06 /* EmailButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailButtonTests.m; sourceTree = "<group>"; };
+		7116F6D9194104B3006C8F06 /* EBMailButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBMailButtonViewController.h; sourceTree = "<group>"; };
+		7116F6DA194104B3006C8F06 /* EBMailButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBMailButtonViewController.m; sourceTree = "<group>"; };
+		7116F6DB194104B3006C8F06 /* EBMailButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBMailButtonViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7116F6A419410479006C8F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116F6AD19410479006C8F06 /* CoreGraphics.framework in Frameworks */,
+				7116F6AF19410479006C8F06 /* UIKit.framework in Frameworks */,
+				7116F6AB19410479006C8F06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7116F6BF19410479006C8F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116F6C419410479006C8F06 /* XCTest.framework in Frameworks */,
+				7116F6C619410479006C8F06 /* UIKit.framework in Frameworks */,
+				7116F6C519410479006C8F06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7116F69E19410479006C8F06 = {
+			isa = PBXGroup;
+			children = (
+				7116F6B019410479006C8F06 /* EmailButton */,
+				7116F6C919410479006C8F06 /* EmailButtonTests */,
+				7116F6A919410479006C8F06 /* Frameworks */,
+				7116F6A819410479006C8F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7116F6A819410479006C8F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7116F6A719410479006C8F06 /* EmailButton.app */,
+				7116F6C219410479006C8F06 /* EmailButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7116F6A919410479006C8F06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7116F6AA19410479006C8F06 /* Foundation.framework */,
+				7116F6AC19410479006C8F06 /* CoreGraphics.framework */,
+				7116F6AE19410479006C8F06 /* UIKit.framework */,
+				7116F6C319410479006C8F06 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7116F6B019410479006C8F06 /* EmailButton */ = {
+			isa = PBXGroup;
+			children = (
+				7116F6B919410479006C8F06 /* EBAppDelegate.h */,
+				7116F6BA19410479006C8F06 /* EBAppDelegate.m */,
+				7116F6D9194104B3006C8F06 /* EBMailButtonViewController.h */,
+				7116F6DA194104B3006C8F06 /* EBMailButtonViewController.m */,
+				7116F6DB194104B3006C8F06 /* EBMailButtonViewController.xib */,
+				7116F6BC19410479006C8F06 /* Images.xcassets */,
+				7116F6B119410479006C8F06 /* Supporting Files */,
+			);
+			path = EmailButton;
+			sourceTree = "<group>";
+		};
+		7116F6B119410479006C8F06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7116F6B219410479006C8F06 /* EmailButton-Info.plist */,
+				7116F6B319410479006C8F06 /* InfoPlist.strings */,
+				7116F6B619410479006C8F06 /* main.m */,
+				7116F6B819410479006C8F06 /* EmailButton-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7116F6C919410479006C8F06 /* EmailButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7116F6CF19410479006C8F06 /* EmailButtonTests.m */,
+				7116F6CA19410479006C8F06 /* Supporting Files */,
+			);
+			path = EmailButtonTests;
+			sourceTree = "<group>";
+		};
+		7116F6CA19410479006C8F06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7116F6CB19410479006C8F06 /* EmailButtonTests-Info.plist */,
+				7116F6CC19410479006C8F06 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7116F6A619410479006C8F06 /* EmailButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7116F6D319410479006C8F06 /* Build configuration list for PBXNativeTarget "EmailButton" */;
+			buildPhases = (
+				7116F6A319410479006C8F06 /* Sources */,
+				7116F6A419410479006C8F06 /* Frameworks */,
+				7116F6A519410479006C8F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailButton;
+			productName = EmailButton;
+			productReference = 7116F6A719410479006C8F06 /* EmailButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7116F6C119410479006C8F06 /* EmailButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7116F6D619410479006C8F06 /* Build configuration list for PBXNativeTarget "EmailButtonTests" */;
+			buildPhases = (
+				7116F6BE19410479006C8F06 /* Sources */,
+				7116F6BF19410479006C8F06 /* Frameworks */,
+				7116F6C019410479006C8F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7116F6C819410479006C8F06 /* PBXTargetDependency */,
+			);
+			name = EmailButtonTests;
+			productName = EmailButtonTests;
+			productReference = 7116F6C219410479006C8F06 /* EmailButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7116F69F19410479006C8F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = DevMountain;
+				TargetAttributes = {
+					7116F6C119410479006C8F06 = {
+						TestTargetID = 7116F6A619410479006C8F06;
+					};
+				};
+			};
+			buildConfigurationList = 7116F6A219410479006C8F06 /* Build configuration list for PBXProject "EmailButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7116F69E19410479006C8F06;
+			productRefGroup = 7116F6A819410479006C8F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7116F6A619410479006C8F06 /* EmailButton */,
+				7116F6C119410479006C8F06 /* EmailButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7116F6A519410479006C8F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116F6B519410479006C8F06 /* InfoPlist.strings in Resources */,
+				7116F6BD19410479006C8F06 /* Images.xcassets in Resources */,
+				7116F6DD194104B3006C8F06 /* EBMailButtonViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7116F6C019410479006C8F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116F6CE19410479006C8F06 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7116F6A319410479006C8F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116F6B719410479006C8F06 /* main.m in Sources */,
+				7116F6BB19410479006C8F06 /* EBAppDelegate.m in Sources */,
+				7116F6DC194104B3006C8F06 /* EBMailButtonViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7116F6BE19410479006C8F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7116F6D019410479006C8F06 /* EmailButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7116F6C819410479006C8F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7116F6A619410479006C8F06 /* EmailButton */;
+			targetProxy = 7116F6C719410479006C8F06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7116F6B319410479006C8F06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7116F6B419410479006C8F06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7116F6CC19410479006C8F06 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7116F6CD19410479006C8F06 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7116F6D119410479006C8F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7116F6D219410479006C8F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7116F6D419410479006C8F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailButton/EmailButton-Prefix.pch";
+				INFOPLIST_FILE = "EmailButton/EmailButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7116F6D519410479006C8F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailButton/EmailButton-Prefix.pch";
+				INFOPLIST_FILE = "EmailButton/EmailButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7116F6D719410479006C8F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmailButton.app/EmailButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailButton/EmailButton-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EmailButtonTests/EmailButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7116F6D819410479006C8F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmailButton.app/EmailButton";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailButton/EmailButton-Prefix.pch";
+				INFOPLIST_FILE = "EmailButtonTests/EmailButtonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7116F6A219410479006C8F06 /* Build configuration list for PBXProject "EmailButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7116F6D119410479006C8F06 /* Debug */,
+				7116F6D219410479006C8F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7116F6D319410479006C8F06 /* Build configuration list for PBXNativeTarget "EmailButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7116F6D419410479006C8F06 /* Debug */,
+				7116F6D519410479006C8F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7116F6D619410479006C8F06 /* Build configuration list for PBXNativeTarget "EmailButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7116F6D719410479006C8F06 /* Debug */,
+				7116F6D819410479006C8F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7116F69F19410479006C8F06 /* Project object */;
+}
